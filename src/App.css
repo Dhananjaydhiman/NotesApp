@@ -1,0 +1,184 @@
+.linkbox{
+  display: flex;
+  background: black;
+  padding: 5px 0px 5px 5px;
+  font-size: 20px;
+
+}
+
+.link{
+  padding: 5px;
+  margin: 5px 8px;
+}
+
+#form{
+  margin: 50px;
+}
+#note{
+  text-align: center;
+}
+#formchild{
+  border: 2px solid black;
+  width: 40%;
+  padding: 30px;
+  margin: auto;
+  border-radius: 8px;
+}
+#child1,#child2{
+  padding: 5px;
+  margin-left: 60px;
+}
+#title{
+  width: 85%;
+  border: none;
+  border-radius: 8px;
+  background: aliceblue;
+  padding: 15px;
+}
+#description{
+  width: 85%;
+  border: none;
+  border-radius: 5px;
+  background: aliceblue;
+  padding: 15px;
+}
+#child3{
+  padding: 5px;
+  text-align: center;
+}
+#add{
+  padding: 8px;
+  width: 15%;
+  margin: auto;
+  border: none;
+  color: white;
+  background: darkslategrey;
+  border-radius: 5px;
+}
+#save{
+  padding: 8px;
+  width: 30%;
+  margin: auto;
+  border: none;
+  color: white;
+  background: darkcyan;
+  border-radius: 5px;
+}
+#listview{
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 12px;
+  background: lightseagreen;
+}
+#gridview{
+  margin: auto;
+  margin-top: 20px;
+  display: block;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 12px;
+  background: greenyellow;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Gridview{
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parent{
+  background: greenyellow;
+  width: 32%;
+  margin: 5px;
+  padding: 15px;
+  word-break: break-all;
+  position: relative;
+  border-radius: 5px;
+  cursor: move;
+}
+
+.description{
+  margin-top: 15px;
+  padding: 2px;
+}
+
+.parentBtn, .parentBtn2{
+  float: right;
+    margin-top: -75px;
+    margin-right: -10px;
+    padding: 2px;
+    position: absolute;
+    right: 15px;
+    top: 82px;
+}
+ 
+.editBtn, .deleteBtn{
+  background: greenyellow;
+  border: none;
+  font-size: 20px;
+}
+
+
+
+
+
+
+/* ***************************************************************************************** */
+
+.ListView{
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.parent2{
+  background: lightseagreen;
+    width: 80%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 20px;
+    word-break: break-all;
+    position: relative;
+    border-radius: 5px;
+    display: flex;
+    cursor: move;
+}
+
+.title2{
+  width:15% 
+}
+
+.description2{
+  margin-top:8px;
+  padding:2px;
+  width:80%;
+}
+
+.editBtn2, .deleteBtn2{
+  background: lightseagreen; 
+  border: none; 
+  font-size: 20px;
+}
