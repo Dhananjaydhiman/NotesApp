@@ -14,7 +14,9 @@ const Deleteconfirmation = () => {
             <Modal.Header onClick={() => { setBox(false); }} closeButton>
                <Modal.Title>Delete Confirmation</Modal.Title>
             </Modal.Header>
-            <Modal.Body><div className="alert alert-danger">Are your sure you want to delete this ?</div></Modal.Body>
+            <Modal.Body>
+               <div className="alert alert-danger">Are your sure you want to delete this ?</div>
+            </Modal.Body>
             <Modal.Footer>
                <Button variant="default" onClick={() => { setBox(false); }}>
                   Cancel
